@@ -1,4 +1,6 @@
 *.DS_Store
-shLar_vs_Ctrl/plot/
-shLar_vs_Ctrl/polysome_v0.txt
-shLar_vs_Ctrl/polysome_v1.txt
+
+.idea*
+Workflows/*
+Projects/Patient_GI/cBioPortal
+Projects/Patient_GI/CRISPRi_Mapping_paper/
