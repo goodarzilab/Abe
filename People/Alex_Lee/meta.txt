@@ -48,7 +48,7 @@ U17	biopsy
 V1	metastasis
 V2	metastasis
 V4	metastasis
-Z10	metastasis
-Z1	biopsy
+Z1	metastasis
+Z10	biopsy
 Z4	resection
 Z5	metastasis
