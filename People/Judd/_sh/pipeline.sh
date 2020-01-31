@@ -57,17 +57,6 @@
 # done
 
 # ###############################  meRIPseq  ########################################### #
-
-#!/bin/bash
-meRIPseq="/rumi/shams/abe/Workflows/meRIPseq/meRIPseq.R"
-indir='/rumi/shams/abe/People/Judd'
-# metadata=$2
-
-echo "Input directory: "$indir
-# echo "Input metadata file: "$metadata
-
-### run meRIPseq
-Rscript $meRIPseq -i $indir
-
+# https://github.com/goodarzilab/Abe/tree/master/Workflows/meRIPseq/main.R
 # ###############################  RHHMM  ############################################## #
 # # source: https://github.com/lzcyzm/RHHMM

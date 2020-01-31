@@ -1,7 +1,7 @@
 *.DS_Store
-
+*Rhistory*
 .idea*
-Workflows/*
 Projects/Patient_GI/cBioPortal
 Projects/Patient_GI/CRISPRi_Mapping_paper/
 .Rproj.user
+*.Rproj*
