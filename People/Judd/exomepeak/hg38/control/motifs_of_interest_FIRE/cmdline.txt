@@ -1,0 +1,1 @@
+fire.pl --expfile=peaks.nointron_teiser.txt --exptype=discrete --fastafile_rna=peaks.nointron_teiser.fa --nodups=1 --dodna=0 --dodnarna=0 --species=human --doskipdiscovery=1 --motiffile_rna=motifs_of_interest.txt
