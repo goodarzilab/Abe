@@ -1,6 +1,7 @@
 *.DS_Store
 *Rhistory*
 .idea*
+Projects/GI_predictor/Results
 Projects/GI_predictor/CRISPRi_Mapping_paper
 Projects/GI_predictor/cBioPortal
 Projects/GI_predictor/related papers
