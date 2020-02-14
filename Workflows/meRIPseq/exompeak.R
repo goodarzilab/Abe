@@ -19,9 +19,10 @@ if (args$species == 'hg38') {
   tag <- '.bam$'
 #} else if (args$species == 'mm10') {
   #
-} else if (args$species == 'HIV') {
-  txdb <- makeTxDbFromGFF('./HIV/HIV.gtf')
-  tag <- '.HIV.bam$'
+# } else if (args$species == 'HIV') {
+#   txdb <- makeTxDbFromGFF('./HIV/HIV.gtf',
+#                           organism='Human immunodeficiency virus 1')
+#   tag <- '.HIV.bam$'
 }
 setwd("./bam")
 print (txdb)

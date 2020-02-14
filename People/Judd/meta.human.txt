@@ -1,0 +1,10 @@
+s23.human.NT  NT
+s24.human.NT  NT
+s23.human.METTL14 METTL14
+s24.human.METTL14 METTL14
+s23.human.METTL3 METTL3
+s24.human.METTL3 METTL3
+s23.human.Virma Virma
+s24.human.Virma Virma
+s23.human.WTAP WTAP
+s24.human.WTAP WTAP

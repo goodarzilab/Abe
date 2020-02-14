@@ -1,0 +1,10 @@
+s23.hiv.NT  NT
+s24.hiv.NT  NT
+s23.hiv.METTL14 METTL14
+s24.hiv.METTL14 METTL14
+s23.hiv.METTL3 METTL3
+s24.hiv.METTL3 METTL3
+s23.hiv.Virma Virma
+s24.hiv.Virma Virma
+s23.hiv.WTAP WTAP
+s24.hiv.WTAP WTAP
