@@ -1,9 +1,5 @@
 To use https://github.com/igvteam/igv-jupyter
 
-0. make a fit conda environment and activate that:
-`conda env create -f igv.yml`
-`conda activate igv`
-
 1. name bam files like this:
 `<sample>.<treatment>.<input/IP>.bam`
 

@@ -1,6 +1,2 @@
-HIV	gene	1	9178	.	*	.	gene_id "pJH048"; gene_name "IIIB"; gene_source "Judd"; gene_biotype "protein_coding";
-HIV	transcript	156	9178	.	*	.	gene_id "pJH048"; transcript_id "IIIB.1"; gene_name "IIIB"; gene_source "Judd"; gene_biotype "protein_coding"; transcript_source "Judd"; transcript_biotype "protein_coding";
-HIV	exon	156	9178	.	*	.	gene_id "pJH048"; gene_name "IIIB"; gene_source "Judd"; gene_biotype "protein_coding";
-HIV	CDS	156	9178	.	+	0	gene_id "pJH048"; transcript_id "IIIB.1"; exon_number "1"; gene_name "IIIB"; gene_source "Judd"; gene_biotype "protein_coding"; transcript_source "Judd"; transcript_biotype "protein_coding"; protein_id "IIIB.1"; protein_version "1";
-HIV	start_codon	156	158	.	+	0	gene_id "pJH048"; transcript_id "IIIB.1"; exon_number "1"; gene_name "IIIB"; gene_source "Judd"; gene_biotype "protein_coding"; transcript_source "Judd"; transcript_biotype "protein_coding";
-HIV	stop_codon	9176	9178	.	+	0	gene_id "pJH048"; transcript_id "IIIB.1"; exon_number "6"; gene_name "IIIB"; gene_source "Judd"; gene_biotype "protein_coding"; transcript_source "Judd"; transcript_biotype "protein_coding";
+HIV HIVIIIB gene    1   9178    .   +   .   gene_id "pJH048.5"; gene_type "protein_coding"; gene_name "IIIB";
+HIV HIVIIIB transcript  1   9178    .   +   .   gene_id "pJH048.5"; transcript_id "IIIB.1"; gene_type "protein_coding"; gene_name "IIIB"; transcript_name "IIIB.1";

@@ -20,22 +20,25 @@ setwd('./bam')
 
 
 
-radar <- countReads(
-  samplenames = c("D0.r1","D0.r2","D25.r1","D25.r2"),
-  gtf = "/rumi/shams/genomes/hg38/gencode.v28.annotation.gtf",
-  bamFolder = "./",
-  modification = args$modification,
-  strandToKeep = "opposite",
-  outputDir = "../radar",
-  threads = args$threads
-)
-
-radar <- normalizeLibrary(radar)
-radar <- adjustExprLevel(radar)
-variable(radar) <- data.frame( Group =            )
-radar <- filterBins(radar,minCountsCutOff = 15)
-radar <- diffIP_parallel(radar, thread = args$threads)
-top_bins <- extractIP(radar,filtered = T)[order(rowMeans( extractIP(radar,filtered = T) ),decreasing = T)[1:1000],]
-radar <- reportResult(radar, cutoff = 0.1, Beta_cutoff = 0.5, threads=16)
-result <- results(radar)
-saveRDS(radar, file = "radar.rds")
+run_radar <- function(enz, gtffile,species, cutoff = 0.1, Beta_cutoff = 0.5,threads = 18){
+    outputDir = paste("radar", species,enz, sep='/')
+    radar <- countReads(
+        samplenames = unlist(lapply (c('s23','s24'), paste, paste(species,c('NT',enz), sep='.'),sep='.')),
+        gtf = gtffile,
+        bamFolder = "bam",
+        modification = 'm6A',
+        strandToKeep = "opposite",
+        outputDir = outputDir,
+        threads = threads,
+        saveOutput = TRUE
+    )
+    radar <- normalizeLibrary(radar) #, boxPlot = FALSE)
+    radar <- adjustExprLevel(radar)
+    variable(radar) <- data.frame( Group =data.frame( Group = rep(c("input","meRIP"),2)) )
+    radar <- filterBins(radar,minCountsCutOff = 15)
+    radar <- diffIP_parallel(radar, thread = threads)
+    top_bins <- extractIP(radar,filtered = T)[order(rowMeans( extractIP(radar,filtered = T) ),decreasing = T)[1:1000],]
+    radar <- reportResult(radar, cutoff = cutoff, Beta_cutoff = Beta_cutoff, threads=threads)
+    result <- results(radar)
+    saveRDS(radar, file = paste(outputDir,"radar.rds",sep='/'))
+}
