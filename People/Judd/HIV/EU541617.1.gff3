@@ -1,0 +1,34 @@
+##sequence-region EU541617.1 1 9263
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+EU541617.1	Genbank	region	1	9263	.	+	.	ID=EU541617.1:1..9263;Dbxref=taxon:11676;clone=pIIIB;country=USA;gb-acronym=HIV-1;gbkey=Src;genome=proviral;mol_type=genomic DNA
+EU541617.1	Genbank	long_terminal_repeat	1	181	.	+	.	ID=id-EU541617.1:1..181;gbkey=repeat_region;rpt_type=long_terminal_repeat
+EU541617.1	Genbank	primer_binding_site	182	199	.	+	.	ID=id-EU541617.1:182..199;gbkey=primer_bind
+EU541617.1	Genbank	sequence_alteration	200	200	.	+	.	ID=id-EU541617.1:200..200;Note=as compared to HIV-1 isolate A3G-R1;gbkey=variation;replace=c
+EU541617.1	Genbank	sequence_alteration	200	200	.	+	.	ID=id-EU541617.1:200..200-2;Note=as compared to HIV-1 isolates A3G-R2 and A3G-R3;gbkey=variation;replace=t
+EU541617.1	Genbank	gene	336	1838	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+EU541617.1	Genbank	CDS	336	1838	.	+	0	ID=cds-ACB38948.1;Parent=gene-gag;Dbxref=NCBI_GP:ACB38948.1;Name=ACB38948.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=ACB38948.1
+EU541617.1	Genbank	gene	1631	4642	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1631
+EU541617.1	Genbank	CDS	1631	4642	.	+	0	ID=cds-ACB38949.1;Parent=gene-pol;Dbxref=NCBI_GP:ACB38949.1;Name=ACB38949.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=ACB38949.1;start_range=.,1631
+EU541617.1	Genbank	gene	4587	5165	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+EU541617.1	Genbank	CDS	4587	5165	.	+	0	ID=cds-ACB38950.1;Parent=gene-vif;Dbxref=NCBI_GP:ACB38950.1;Name=ACB38950.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=ACB38950.1
+EU541617.1	Genbank	sequence_alteration	4662	4667	.	+	.	ID=id-vif;Note=as compared to vif-deficient derivative of pIIIB;gbkey=variation;gene=vif;replace=taatag
+EU541617.1	Genbank	gene	5105	5395	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+EU541617.1	Genbank	CDS	5105	5395	.	+	0	ID=cds-ACB38951.1;Parent=gene-vpr;Dbxref=NCBI_GP:ACB38951.1;Name=ACB38951.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=ACB38951.1
+EU541617.1	Genbank	sequence_alteration	5106	5106	.	+	.	ID=id-vpr;Note=as compared to HIV-1 isolate A3G-R1;gbkey=variation;gene=vpr;replace=c
+EU541617.1	Genbank	sequence_alteration	5157	5157	.	+	.	ID=id-vpr-2;Note=as compared to HIV-1 isolate A3G-R3;gbkey=variation;gene=vpr;replace=a
+EU541617.1	Genbank	sequence_alteration	5266	5266	.	+	.	ID=id-vpr-3;Note=as compared to HIV-1 isolate A3G-R2;gbkey=variation;gene=vpr;replace=a
+EU541617.1	Genbank	sequence_alteration	5297	5297	.	+	.	ID=id-vpr-4;Note=as compared to HIV-1 isolate A3G-R1;gbkey=variation;gene=vpr;replace=t
+EU541617.1	Genbank	gene	5376	7966	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+EU541617.1	Genbank	CDS	5376	5590	.	+	0	ID=cds-ACB38952.1;Parent=gene-tat;Dbxref=NCBI_GP:ACB38952.1;Name=ACB38952.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=ACB38952.1
+EU541617.1	Genbank	CDS	7921	7966	.	+	1	ID=cds-ACB38952.1;Parent=gene-tat;Dbxref=NCBI_GP:ACB38952.1;Name=ACB38952.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=ACB38952.1
+EU541617.1	Genbank	gene	5515	8195	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+EU541617.1	Genbank	CDS	5515	5590	.	+	0	ID=cds-ACB38953.1;Parent=gene-rev;Dbxref=NCBI_GP:ACB38953.1;Name=ACB38953.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=ACB38953.1
+EU541617.1	Genbank	CDS	7921	8195	.	+	2	ID=cds-ACB38953.1;Parent=gene-rev;Dbxref=NCBI_GP:ACB38953.1;Name=ACB38953.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=ACB38953.1
+EU541617.1	Genbank	gene	5607	5852	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+EU541617.1	Genbank	CDS	5607	5852	.	+	0	ID=cds-ACB38954.1;Parent=gene-vpu;Dbxref=NCBI_GP:ACB38954.1;Name=ACB38954.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=ACB38954.1
+EU541617.1	Genbank	gene	5767	8337	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+EU541617.1	Genbank	CDS	5767	8337	.	+	0	ID=cds-ACB38955.1;Parent=gene-env;Dbxref=NCBI_GP:ACB38955.1;Name=ACB38955.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=ACB38955.1
+EU541617.1	Genbank	gene	8339	8959	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+EU541617.1	Genbank	CDS	8339	8959	.	+	0	ID=cds-ACB38956.1;Parent=gene-nef;Dbxref=NCBI_GP:ACB38956.1;Name=ACB38956.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=ACB38956.1
+EU541617.1	Genbank	long_terminal_repeat	8628	9263	.	+	.	ID=id-EU541617.1:8628..9263;gbkey=repeat_region;rpt_type=long_terminal_repeat
+
