@@ -1,0 +1,134 @@
+Cul4A-RING E3 ubiquitin ligase complex, GO:0031464
+	negative regulation of kinase activity, GO:0033673
+	Cul4-RING E3 ubiquitin ligase complex, GO:0080008
+	protein neddylation, GO:0045116
+G-protein coupled purinergic nucleotide receptor activity, GO:0045028
+	G-protein coupled purinergic nucleotide receptor signaling pathway, GO:0035589
+	signal transduction involved in regulation of gene expression, GO:0023019
+Gemini of coiled bodies, GO:0097504
+	SMN complex, GO:0032797
+	DNA-templated transcription, GO:0006353
+NADH dehydrogenase activity, GO:0003954
+	cellular response to interferon-beta, GO:0035458
+	FMN binding, GO:0010181
+NADPH binding, GO:0070402
+	translation repressor activity, GO:0000900
+NuA4 histone acetyltransferase complex, GO:0035267
+	BAF-type complex, GO:0090544
+	acetyltransferase activity, GO:0016407
+	histone H2A acetylation, GO:0043968
+	MOZ/MORF histone acetyltransferase complex, GO:0070776
+	DNA double-strand break processing, GO:0000729
+	Sin3 complex, GO:0016580
+	ATP-dependent 5'-3' DNA helicase activity, GO:0043141
+RNA polymerase III activity, GO:0001056
+	DNA-directed RNA polymerase III complex, GO:0005666
+Ras GTPase binding, GO:0017016
+	protein localization to lysosome, GO:0061462
+	protein localization to membrane, GO:0072657
+	guanyl-nucleotide exchange factor complex, GO:0032045
+	microvillus assembly, GO:0030033
+	apical junction complex, GO:0043296
+T cell proliferation, GO:0042098
+	nuclear-transcribed mRNA catabolic process, GO:0000288
+	response to iron ion, GO:0010039
+	response to molecule of bacterial origin, GO:0002237
+	regulation of ryanodine-sensitive calcium-release channel activity, GO:0060314
+	membrane protein ectodomain proteolysis, GO:0006509
+	cyclin-dependent protein kinase holoenzyme complex, GO:0000307
+acetylcholine receptor activity, GO:0015464
+	acetylcholine-gated cation-selective channel activity, GO:0022848
+	acetylcholine binding, GO:0042166
+	acetylcholine-gated channel complex, GO:0005892
+cardiac ventricle formation, GO:0003211
+	sympathetic nervous system development, GO:0048485
+cation binding, GO:0043169
+	RNA modification, GO:0009451
+ephrin receptor activity, GO:0005003
+	chemorepellent activity, GO:0045499
+error-free translesion synthesis, GO:0070987
+	response to UV-C, GO:0010225
+	regulation of proteasomal protein catabolic process, GO:0061136
+	protein localization to chromosome, GO:0034502
+exonucleolytic trimming to generate mature 3'-end of 5.8S rRNA from tricistronic rRNA transcript (SSU-rRNA, GO:0000467
+	nuclear polyadenylation-dependent tRNA catabolic process, GO:0071038
+	AU-rich element binding, GO:0017091
+long-chain fatty acid transport, GO:0015909
+	negative regulation of platelet activation, GO:0010544
+	very long-chain fatty acid metabolic process, GO:0000038
+	positive regulation of phagocytosis, GO:0060100
+misfolded or incompletely synthesized protein catabolic process, GO:0006515
+	regulation of gene expression, GO:0040029
+	nuclear inclusion body, GO:0042405
+	positive regulation of ubiquitin-protein transferase activity, GO:0051443
+mitochondrial proton-transporting ATP synthase complex, GO:0005753
+	proton-transporting ATP synthase activity, GO:0046933
+	mitochondrial ATP synthesis coupled proton transport, GO:0042776
+mitochondrion morphogenesis, GO:0070584
+	regulation of G1/S transition of mitotic cell cycle, GO:2000045
+	vocalization behavior, GO:0071625
+	regulation of fatty acid metabolic process, GO:0019217
+	heart contraction, GO:0060047
+	DNA-dependent DNA replication, GO:0006261
+	activation of cysteine-type endopeptidase activity involved in apoptotic process by cytochrome c, GO:0008635
+	respiratory electron transport chain, GO:0022904
+nucleosome binding, GO:0031491
+	ligand-dependent nuclear receptor binding, GO:0016922
+	positive regulation of transcription elongation from RNA polymerase II promoter, GO:0032968
+	nBAF complex, GO:0071565
+	regulation of DNA-templated transcription, GO:0032784
+peptide disulfide oxidoreductase activity, GO:0015037
+	endoplasmic reticulum chaperone complex, GO:0034663
+positive regulation of epidermal growth factor-activated receptor activity, GO:0045741
+	positive regulation of protein dephosphorylation, GO:0035307
+positive regulation of gene silencing by miRNA, GO:2000637
+	RISC complex, GO:0016442
+positive regulation of response to cytokine stimulus, GO:0060760
+	RNA polymerase II transcriptional preinitiation complex assembly, GO:0051123
+proteasome assembly, GO:0043248
+	proteasome accessory complex, GO:0022624
+	mitotic spindle assembly checkpoint, GO:0007094
+protein deacetylase activity, GO:0033558
+	eyelid development in camera-type eye, GO:0061029
+	positive regulation of endoplasmic reticulum stress-induced intrinsic apoptotic signaling pathway, GO:1902237
+	histone H4 deacetylation, GO:0070933
+protein deneddylation, GO:0000338
+	eukaryotic translation initiation factor 3 complex, GO:0005852
+	synaptic vesicle transport, GO:0048489
+protein kinase A binding, GO:0051018
+	barbed-end actin filament capping, GO:0051016
+	regulation of protein kinase A signaling, GO:0010738
+	action potential, GO:0001508
+regulation of smooth muscle cell migration, GO:0014910
+	protein targeting to lysosome, GO:0006622
+riboflavin metabolic process, GO:0006771
+	3'-phosphoadenosine 5'-phosphosulfate metabolic process, GO:0050427
+ribonuclease P activity, GO:0004526
+	tRNA 5'-leader removal, GO:0001682
+ribosomal small subunit assembly, GO:0000028
+	mRNA 5'-UTR binding, GO:0048027
+spindle pole centrosome, GO:0031616
+	chromocenter, GO:0010369
+	microtubule nucleation, GO:0007020
+	microtubule plus-end, GO:0035371
+	regulation of mitotic spindle organization, GO:0060236
+	posttranscriptional regulation of gene expression, GO:0010608
+	negative regulation of mRNA splicing, GO:0048025
+	regulation of cytokinesis, GO:0032465
+	vesicle transport along microtubule, GO:0047496
+	cleavage furrow formation, GO:0036089
+	astral microtubule organization, GO:0030953
+	ribosomal small subunit binding, GO:0043024
+viral nucleocapsid, GO:0019013
+	SMN-Sm protein complex, GO:0034719
+	negative regulation of telomere maintenance via telomerase, GO:0032211
+	small nuclear ribonucleoprotein complex, GO:0030532
+	U1 snRNP, GO:0005685
+	telomerase holoenzyme complex, GO:0005697
+	U2-type prespliceosome, GO:0071004
+	ATP-dependent helicase activity, GO:0008026
+	mRNA destabilization, GO:0061157
+	pre-mRNA binding, GO:0036002
+	ribonucleoprotein granule, GO:0035770
+	methylosome, GO:0034709
+	positive regulation of mRNA splicing, GO:0048026
