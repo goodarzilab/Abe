@@ -1,7 +1,4 @@
-# **ENCODE Transcription Factor and Histone ChIP-Seq processing pipeline**
-https://github.com/ENCODE-DCC/chip-seq-pipeline2
-
-This is how I used above pipeline for current ChIP-Seq dataset. 
+This is how I used [ENCODE Transcription Factor and Histone ChIP-Seq processing pipeline](https://github.com/ENCODE-DCC/chip-seq-pipeline2) for current ChIP-Seq dataset. 
 ## [Installation](https://github.com/ENCODE-DCC/chip-seq-pipeline2#installation)
 1. I've cloned the github repo 
 ```bash
@@ -41,7 +38,6 @@ $ conda activate encode-chip-seq-pipeline
 
 2. Prepare inputs:
 All raw fastq files stored at a child `fastq` directory at `/rumi/shams/abe/People/Rosser/data-2020-04-24/`. Then, I made four json files in four seprate directories (RT112-H3K27ac, RT112-H3K4me3, UMUC3-H3K27ac, UMUC3-H3K4me3) as described [here](https://github.com/ENCODE-DCC/chip-seq-pipeline2/blob/master/docs/input_short.md) using the [template](https://github.com/ENCODE-DCC/chip-seq-pipeline2/blob/master/example_input_json/template.json). 
-However, I'm following this [check list](https://github.com/ENCODE-DCC/chip-seq-pipeline2/blob/master/docs/input_short.md#checklist). 
 
 3. I just follow steps 3, 5 and 6 to [install caper](https://github.com/ENCODE-DCC/caper#installation). `rumi` server is a `local` platform. 
 
