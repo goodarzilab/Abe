@@ -10,13 +10,29 @@ $ git clone https://github.com/ENCODE-DCC/chip-seq-pipeline2
 ```
 
 2. I made the conda environment as described in this [link](https://github.com/ENCODE-DCC/chip-seq-pipeline2/blob/master/docs/install_conda.md). However, I applied uninstallation command before actual installation command to make it work. 
+```bash 
+$ bash scripts/uninstall_conda_env.sh
+$ bash scripts/install_conda_env.sh
 
+
+3. Activate env
+```bash
+$ conda activate encode-chip-seq-pipeline
+```
 3. I downloaded genome database as described [here](https://github.com/ENCODE-DCC/chip-seq-pipeline2/blob/master/docs/build_genome_database.md) to build `hg38` genome using *genome builder* command (see [here](https://github.com/ENCODE-DCC/chip-seq-pipeline2/blob/master/docs/build_genome_database.md)). 
 
 ```bash
-conda activate encode-chip-seq-pipeline
-bash scripts/build_genome_data.sh hg38 /rumi/shams/abe/genomes/hg38/chip-seq-pipeline2
+$ bash /rumi/shams/abe/Workflows/chip-seq-pipeline2/scripts/download_genome_data.sh hg38 /rumi/shams/abe/genomes/hg38/chip-seq-pipeline2
+$ bash /rumi/shams/abe/Workflows/chip-seq-pipeline2/scripts/build_genome_data.sh hg38 /rumi/shams/abe/genomes/hg38/chip-seq-pipeline2
 ```
+
+4. After running builder command, there is a TSV file which is required to define input JSON file. 
+```
+    "chip.genome_tsv" : "/rumi/shams/abe/genomes/hg38/chip-seq-pipeline2/hg38.tsv"
+```
+
+* The genome files and indecies are `/rumi/shams/abe/genomes/hg38/chip-seq-pipeline2/` which is ready for other people to use as well. 
+
 ## Running the pipeline
 1. Make sure to activate the conda environment:
 ```bash
