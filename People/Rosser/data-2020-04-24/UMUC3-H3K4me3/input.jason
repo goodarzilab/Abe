@@ -1,0 +1,22 @@
+{
+    "chip.title" : "UMUC3 cell line, H3K4me3 histone",
+    "chip.description" : "Input JSON for ENCODE ChIP-seq pipeline.",
+
+    "chip.pipeline_type" : "histone",
+    "chip.aligner" : "bowtie2",
+    "chip.align_only" : false,
+    "chip.true_rep_only" : false,
+
+    "chip.genome_tsv" : "/rumi/shams/abe/genomes/hg38/chip-seq-pipeline2/hg38.tsv",
+
+    "chip.paired_end" : true,
+    "chip.ctl_paired_end" : true,
+
+    "chip.fastqs_rep1_R1" : [ "../fastq/UMUC3-H3K4me3-1_R1.fastq.gz" ],
+    "chip.fastqs_rep1_R2" : [ "../fastq/UMUC3-H3K4me3-1_R2.fastq.gz" ],
+    "chip.fastqs_rep2_R1" : [ "../fastq/UMUC3-H3K4me3-1_repeat_R1.fastq.gz" ],
+    "chip.fastqs_rep2_R2" : [ "../fastq/UMUC3-H3K4me3-1_repeat_R2.fastq.gz" ],
+
+    "chip.ctl_fastqs_rep1_R1" : [ "../fastq/UMUC3-Input_R1.fastq.gz" ],
+    "chip.ctl_fastqs_rep1_R2" : [ "../fastq/UMUC3-Input_R2.fastq.gz" ]
+}

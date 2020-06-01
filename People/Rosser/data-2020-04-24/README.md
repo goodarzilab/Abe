@@ -61,10 +61,11 @@ $ croo chip/some-hash-code/metadata.json
 ```
 
 2. Merge qc reports from different studies:
-At the same conda envirnment `pip install qc2tsv` install (qc2tsv)[https://github.com/ENCODE-DCC/qc2tsv]. Then, it's ready to use for merging qc reports from different studies in a unique spreadsheet file.
+At the same conda envirnment `pip install qc2tsv` install [qc2tsv](https://github.com/ENCODE-DCC/qc2tsv). Then, it's ready to use for merging qc reports from different studies in a unique spreadsheet file.
 ```bash 
 $ cd /rumi/shams/abe/People/Rosser/data-2020-04-24/
 $ qc2tsv RT112-H3K27ac/qc/qc.json RT112-H3K4me3/qc/qc.json UMUC3-H3K27ac/qc/qc.json UMUC3-H3K4me3/qc/qc.json > spreadsheet.tsv
 ```
 
 ~Abe, May 2020
+
