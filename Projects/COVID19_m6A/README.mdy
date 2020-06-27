@@ -1,7 +1,0 @@
-notebook.ipynb >>> actual analysis with detailed comments 
-
-virus-plots.ipynb >>> codes to draw heatmaps of the result matrix 
-
-qc_* >>> folders contain MultiQC reports for analysis steps that qc applys 
-
-sars-cov-2-transcriptome >>> local clone of [The architecture of SARS-CoV-2 transcriptome](https://github.com/hyeshik/sars-cov-2-transcriptome)
