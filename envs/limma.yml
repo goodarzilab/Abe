@@ -4,7 +4,7 @@ channels:
   - r
   - bioconda
   - conda-forge
-  - defaults
+  - anaconda
 dependencies:
   - bioconductor-limma
   - bioconductor-glimma
