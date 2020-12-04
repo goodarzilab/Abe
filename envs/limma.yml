@@ -7,14 +7,14 @@ channels:
   - defaults
 dependencies:
   - bioconductor-limma
-  - ipykernel
-  - numpy
-  - pandas
-  - pip
   - bioconductor-glimma
   - bioconductor-deseq2
   - bioconductor-rtracklayer
   - r-tidyverse
   - r-pheatmap
+  - ipykernel
+  - numpy
+  - pandas
+  - pip
   - pip:
     - rpy2
