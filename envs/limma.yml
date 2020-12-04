@@ -10,6 +10,7 @@ dependencies:
   - ipykernel
   - numpy
   - pandas
+  - pip
   - bioconductor-glimma
   - bioconductor-deseq2
   - bioconductor-rtracklayer
