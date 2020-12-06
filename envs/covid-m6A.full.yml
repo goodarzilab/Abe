@@ -266,4 +266,3 @@ dependencies:
     - pytest==5.4.3
     - rpy2==3.3.4
     - tzlocal==2.1
-prefix: /rumi/shams/abe/anaconda3/envs/covid-m6A
