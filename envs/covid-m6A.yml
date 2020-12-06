@@ -19,4 +19,3 @@ dependencies:
   - openjdk
   - logomaker
   - regex
-prefix: /rumi/shams/abe/anaconda3/envs/covid-m6A
