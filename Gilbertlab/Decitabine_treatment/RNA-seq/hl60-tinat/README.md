@@ -24,5 +24,5 @@ In order to test for any differences over multiple time points, once can use a d
 <table>
 
 ## Heatmap clustering
-<img src=plots/Heatmap_clustering.png width='500'>
+<img src=Heatmap_clustering.png width='500'>
 
