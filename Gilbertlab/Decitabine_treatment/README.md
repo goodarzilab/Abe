@@ -20,6 +20,7 @@ https://doi.org/10.1016/j.cell.2012.05.003
 
 __Results from FIRE__ shown above indicate that the known m6A site **DRACH** and **RGAC** (or `[AG]GAC` and `[AGT][AG]AC[ACT]` in regular expression form) is significantly enriched among the **~4700** methylations sites.
 
+
 # RNA-seq data 
 
 ## Analysis workflow 
@@ -33,15 +34,21 @@ __Results from FIRE__ shown above indicate that the known m6A site **DRACH** and
 ### Differential RNA Expression
 #### hyper_mtyl_6h_delta_exp
 <img src="combined_analysis/hyper_mtyl_6h_delta_exp.png" title="hyper_mtyl_6h_delta_exp" width='800'>
+
 #### hyper_mtyl_72h_delta_exp
 <img src="combined_analysis/hyper_mtyl_72h_delta_exp.png" title="hyper_mtyl_72h_delta_exp" width='800'>
+
 #### hyper_mtyl_120h_delta_exp
 <img src="combined_analysis/hyper_mtyl_120h_delta_exp.png" title="hyper_mtyl_120h_delta_exp" width='800'>
 
+___
+
 #### hypo_mtyl_6h_delta_exp
 <img src="combined_analysis/hypo_mtyl_6h_delta_exp.png" title="hypo_mtyl_6h_delta_exp" width='800'>
+
 #### hypo_mtyl_72h_delta_exp
 <img src="combined_analysis/hypo_mtyl_72h_delta_exp.png" title="hypo_mtyl_72h_delta_exp" width='800'>
+
 #### hypo_mtyl_120h_delta_exp
 <img src="combined_analysis/hypo_mtyl_120h_delta_exp.png" title="hypo_mtyl_120h_delta_exp" width='800'>
 
@@ -49,23 +56,33 @@ __Results from FIRE__ shown above indicate that the known m6A site **DRACH** and
 ## 5 other AML cell lines 
 #### hyper_mtyl_kg1_delta_exp
 <img src="combined_analysis/hyper_mtyl_kg1_delta_exp.png" title="hyper_mtyl_kg1_delta_exp" width='800'>
+
 #### hyper_mtyl_molm14_delta_exp
 <img src="combined_analysis/hyper_mtyl_molm14_delta_exp.png" title="hyper_mtyl_molm14_delta_exp" width='800'>
+
 #### hyper_mtyl_ociaml2_delta_exp
 <img src="combined_analysis/hyper_mtyl_ociaml2_delta_exp.png" title="hyper_mtyl_ociaml2_delta_exp" width='800'>
+
 #### hyper_mtyl_ociaml3_delta_exp
 <img src="combined_analysis/hyper_mtyl_ociaml3_delta_exp.png" title="hyper_mtyl_ociaml3_delta_exp" width='800'>
+
 #### hyper_mtyl_thp1_delta_exp
 <img src="combined_analysis/hyper_mtyl_thp1_delta_exp.png" title="hyper_mtyl_thp1_delta_exp" width='800'>
 
+___
+
 #### hypo_mtyl_kg1_delta_exp
 <img src="combined_analysis/hypo_mtyl_kg1_delta_exp.png" title="hypo_mtyl_kg1_delta_exp" width='800'>
+
 #### hypo_mtyl_molm14_delta_exp
 <img src="combined_analysis/hypo_mtyl_molm14_delta_exp.png" title="hypo_mtyl_molm14_delta_exp" width='800'>
+
 #### hypo_mtyl_ociaml2_delta_exp
 <img src="combined_analysis/hypo_mtyl_ociaml2_delta_exp.png" title="hypo_mtyl_ociaml2_delta_exp" width='800'>
+
 #### hypo_mtyl_ociaml3_delta_exp
 <img src="combined_analysis/hypo_mtyl_ociaml3_delta_exp.png" title="hypo_mtyl_ociaml3_delta_exp" width='800'>
+
 #### hypo_mtyl_thp1_delta_exp
 <img src="combined_analysis/hypo_mtyl_thp1_delta_exp.png" title="hypo_mtyl_thp1_delta_exp" width='800'>
 
@@ -73,37 +90,51 @@ __Results from FIRE__ shown above indicate that the known m6A site **DRACH** and
 ### Differential RNA Stability 
 #### hyper_mtyl_6h_delta_stbl
 <img src="combined_analysis/hyper_mtyl_6h_delta_stbl.png" title="hyper_mtyl_6h_delta_stbl" width='800'>
+
 #### hyper_mtyl_120h_delta_stbl
 <img src="combined_analysis/hyper_mtyl_120h_delta_stbl.png" title="hyper_mtyl_120h_delta_stbl" width='800'>
 
+___
+
 #### hypo_mtyl_6h_delta_stbl
 <img src="combined_analysis/hypo_mtyl_6h_delta_stbl.png" title="hypo_mtyl_6h_delta_stbl" width='800'>
+
 #### hypo_mtyl_120h_delta_stbl
 <img src="combined_analysis/hypo_mtyl_120h_delta_stbl.png" title="hypo_mtyl_120h_delta_stbl" width='800'>
 
 
 ## 5 other AML cell lines 
 Test the enrichment of hyper methylated genes (logFC >= 2) and hypo methylated genes logFC
+
 #### hyper_mtyl_kg1_delta_stbl
 <img src="combined_analysis/hyper_mtyl_kg1_delta_stbl.png" title="hyper_mtyl_kg1_delta_stbl" width='800'>
+
 #### hyper_mtyl_molm14_delta_stbl
 <img src="combined_analysis/hyper_mtyl_molm14_delta_stbl.png" title="hyper_mtyl_molm14_delta_stbl" width='800'>
+
 #### hyper_mtyl_ociaml2_delta_stbl
 <img src="combined_analysis/hyper_mtyl_ociaml2_delta_stbl.png" title="hyper_mtyl_ociaml2_delta_stbl" width='800'>
+
 #### hyper_mtyl_ociaml3_delta_stbl
 <img src="combined_analysis/hyper_mtyl_ociaml3_delta_stbl.png" title="hyper_mtyl_ociaml3_delta_stbl" width='800'>
+
 #### hyper_mtyl_thp1_delta_stbl
 <img src="combined_analysis/hyper_mtyl_thp1_delta_stbl.png" title="hyper_mtyl_thp1_delta_stbl" width='800'>
 
+___
 
 #### hypo_mtyl_kg1_delta_stbl
 <img src="combined_analysis/hypo_mtyl_kg1_delta_stbl.png" title="hypo_mtyl_kg1_delta_stbl" width='800'>
+
 #### hypo_mtyl_molm14_delta_stbl
 <img src="combined_analysis/hypo_mtyl_molm14_delta_stbl.png" title="hypo_mtyl_molm14_delta_stbl" width='800'>
+
 #### hypo_mtyl_ociaml2_delta_stbl
 <img src="combined_analysis/hypo_mtyl_ociaml2_delta_stbl.png" title="hypo_mtyl_ociaml2_delta_stbl" width='800'>
+
 #### hypo_mtyl_ociaml3_delta_stbl
 <img src="combined_analysis/hypo_mtyl_ociaml3_delta_stbl.png" title="hypo_mtyl_ociaml3_delta_stbl" width='800'>
+
 #### hypo_mtyl_thp1_delta_stbl
 <img src="combined_analysis/hypo_mtyl_thp1_delta_stbl.png" title="hypo_mtyl_thp1_delta_stbl" width='800'>
 
@@ -113,6 +144,8 @@ We have used [Ribolog](https://github.com/goodarzilab/Ribolog) to estimate diffe
 
 #### hyper_mtyl_lnTE_T_vs_U
 <img src="combined_analysis/hyper_mtyl_lnTE_T_vs_U.png" title="hyper_mtyl_lnTE_T_vs_U" width='800'>
+
+___
+
 #### hypo_mtyl_lnTE_T_vs_U
 <img src="combined_analysis/hypo_mtyl_lnTE_T_vs_U.png" title="hypo_mtyl_lnTE_T_vs_U" width='800'>
-
