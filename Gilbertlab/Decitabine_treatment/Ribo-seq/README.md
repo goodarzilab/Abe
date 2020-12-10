@@ -2,6 +2,10 @@ Tools:
 - https://github.com/goodarzilab/Ribolog
 - https://github.com/goodarzilab/PAGE
 
+```bash
+cat fit1_deci_fdr_qval_g_0.csv | awk -F, '{print $2"\t"$4}' > lnTE_T_vs_U.txt
+```
+
 # QC plots
 
 <table>
