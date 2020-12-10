@@ -26,17 +26,17 @@ https://github.com/goodarzilab/FIRE
 https://github.com/goodarzilab/PAGE
 
 ### msigdb_hallmarks
-<img src="plots/human_ensembl_msigdb_h.all.png" title="msigdb_c1" style="width:600px">
+<img src="d_mtyl_T_vs_U/human_ensembl_msigdb_h.all.png" title="msigdb_c1" style="width:600px">
 
 <!-- ### msigdb_c1
-<img src="plots/human_ensembl_msigdb_c1.all.png" title="msigdb_c1" style="width:600px">
+<img src="d_mtyl_T_vs_U/human_ensembl_msigdb_c1.all.png" title="msigdb_c1" style="width:600px">
  -->
 <!-- ### msigdb_c2 -->
-<!-- <img src="plots/human_ensembl_msigdb_c2.all.png" title="msigdb_c2" style="width:600px"> -->
+<!-- <img src="d_mtyl_T_vs_U/human_ensembl_msigdb_c2.all.png" title="msigdb_c2" style="width:600px"> -->
 
 ### msigdb_c3
-<!-- <img src="plots/human_ensembl_msigdb_c3.all.png" title="msigdb_c3" style="width:600px"> -->
-<img src="plots/human_ensembl_msigdb_c3.R.png" title="msigdb_c3" style="width:600px">
+<!-- <img src="d_mtyl_T_vs_U/human_ensembl_msigdb_c3.all.png" title="msigdb_c3" style="width:600px"> -->
+<img src="d_mtyl_T_vs_U/human_ensembl_msigdb_c3.R.png" title="msigdb_c3" style="width:600px">
 
 
 ```python
@@ -50,12 +50,12 @@ cat d_mtyl_T_vs_U/human_ensembl_msigdb_c3/pvmatrix.txt.killed
     	HIVEP1_TARGET_GENES, HIVEP1_TARGET_GENES
 
 <!-- ### msigdb_c4
-<img src="plots/human_ensembl_msigdb_c4.all.png" title="msigdb_c4" style="width:600px"> -->
+<img src="d_mtyl_T_vs_U/human_ensembl_msigdb_c4.all.png" title="msigdb_c4" style="width:600px"> -->
 
 ### msigdb_c5
-<!-- <img src="plots/human_ensembl_msigdb_c5.all.png" title="msigdb_c5" style="width:600px"> -->
-<img src="plots/human_ensembl_msigdb_c5.R.png" title="msigdb_c5" style="width:600px">
-<img src="plots/human_ensembl_msigdb_c5.L.png" title="msigdb_c5" style="width:600px">
+<!-- <img src="d_mtyl_T_vs_U/human_ensembl_msigdb_c5.all.png" title="msigdb_c5" style="width:600px"> -->
+<img src="d_mtyl_T_vs_U/human_ensembl_msigdb_c5.R.png" title="msigdb_c5" style="width:600px">
+<img src="d_mtyl_T_vs_U/human_ensembl_msigdb_c5.L.png" title="msigdb_c5" style="width:600px">
 
 
 ```python
@@ -90,10 +90,10 @@ cat d_mtyl_T_vs_U/human_ensembl_msigdb_c5/pvmatrix.txt.killed
 
 
 <!-- ### msigdb_c6
-<img src="plots/human_ensembl_msigdb_c6.all.png" title="msigdb_c6" style="width:600px"> -->
+<img src="d_mtyl_T_vs_U/human_ensembl_msigdb_c6.all.png" title="msigdb_c6" style="width:600px"> -->
 
 ### msigdb_c7
-<img src="plots/human_ensembl_msigdb_c7.R.png" title="msigdb_c7" style="width:600px">
+<img src="d_mtyl_T_vs_U/human_ensembl_msigdb_c7.R.png" title="msigdb_c7" style="width:600px">
 
 
 ```python
@@ -107,17 +107,17 @@ cat d_mtyl_T_vs_U/human_ensembl_msigdb_c7/pvmatrix.txt.killed
     	GSE36527_CD62L_HIGH_CD69_NEG_VS_CD62L_LOW_CD69_POS_TREG_KLRG1_NEG_DN, GSE36527_CD62L_HIGH_CD69_NEG_VS_CD62L_LOW_CD69_POS_TREG_KLRG1_NEG_DN
 
 ### msigdb_full
-<img src="plots/human_ensembl_msigdb_full.R.png" title="msigdb_full" style="width:600px">
+<img src="d_mtyl_T_vs_U/human_ensembl_msigdb_full.R.png" title="msigdb_full" style="width:600px">
 
 <!-- ### human_ensembl
-<img src="plots/human_ensembl.all.png" title="ensembl" style="width:600px"> -->
+<img src="d_mtyl_T_vs_U/human_ensembl.all.png" title="ensembl" style="width:600px"> -->
 
 <!-- ### RBPs_coding_gene_ids_by_5UTR
-<img src="plots/human_ensembl_RBPs_coding_gene_ids_by_5UTR.all.png" title="RBPs_coding_gene_ids_by_5UTR" style="width:600px"> -->
+<img src="d_mtyl_T_vs_U/human_ensembl_RBPs_coding_gene_ids_by_5UTR.all.png" title="RBPs_coding_gene_ids_by_5UTR" style="width:600px"> -->
 
 <!-- ### RBPs_coding_gene_ids_by_coding_exons
-<img src="plots/human_ensembl_RBPs_coding_gene_ids_by_coding_exons.all.png" title="RBPs_coding_gene_ids_by_coding_exons" style="width:600px"> -->
+<img src="d_mtyl_T_vs_U/human_ensembl_RBPs_coding_gene_ids_by_coding_exons.all.png" title="RBPs_coding_gene_ids_by_coding_exons" style="width:600px"> -->
 
 <!-- ### RBPs_coding_gene_ids_by_introns
-<img src="plots/human_ensembl_RBPs_coding_gene_ids_by_introns.all.png" title="RBPs_coding_gene_ids_by_introns" style="width:600px">
+<img src="d_mtyl_T_vs_U/human_ensembl_RBPs_coding_gene_ids_by_introns.all.png" title="RBPs_coding_gene_ids_by_introns" style="width:600px">
  -->
