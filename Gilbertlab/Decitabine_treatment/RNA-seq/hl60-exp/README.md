@@ -2,11 +2,11 @@
 In order to test for any differences over multiple time points, once can use a design including the time factor, and then test using the **likelihood ratio test (LRT)**. Here, as we have control (DMSO) and treatment (Decitabine) time series, design formula containing the condition factor, the time factor, and the interaction of the two. In this case, using the likelihood ratio test with a reduced model which does not contain the interaction terms will test whether the condition induces a change in gene expression at any time point after the reference level time point (time 0).
 (see [DESeq2 Time-series-experiments](http://bioconductor.org/packages/devel/bioc/vignettes/DESeq2/inst/doc/DESeq2.html#time-series-experiments) for more details)
 ## PCA
-<img src=plots/plots/PCA_filtered.png style="width:600px">
+<img src=plots/PCA_filtered.png style="width:600px">
 ## Volcano plot
-<img src=plots/plots/Volcano_plot.png style="width:600px">
+<img src=plots/Volcano_plot.png style="width:600px">
 ## Heatmap clustering
-<img src=plots/plots/Heatmap_clustering.pdf.png style="width:600px">
+<img src=plots/Heatmap_clustering.pdf.png style="width:600px">
 <h1>Enrichment analysis<h1>
 <table>
   <tr>
