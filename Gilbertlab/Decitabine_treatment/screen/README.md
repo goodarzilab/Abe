@@ -23,7 +23,6 @@ Tools:
   <tr>
   <h2>human_ensembl_msigdb_c3<h2>
     <td><img src=CRISPRi_HL60_gamma/human_c3_gs.L.png width='600'>
-    <td><img src=CRISPRi_HL60_gamma/human_c3_gs.R.png width='600'>
   <tr>
 <table>
 <table>
