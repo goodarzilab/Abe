@@ -124,61 +124,65 @@ Tools:
 <table>
   <tr>
   <h2>human_ensembl<h2>
-  <img src=lnTE_T_vs_U/human_ensembl.all.png style="width:600px">
+  <img src=lnTE_T_vs_U/human_ensembl.L.png style="width:600px">
   <tr>
 <table>
-<table>
+<!-- <table>
   <tr>
   <h2>human_ensembl_encode_tf<h2>
   <img src=lnTE_T_vs_U/human_ensembl_encode_tf.all.png style="width:600px">
   <tr>
-<table>
-<table>
+<table> -->
+<!-- <table>
   <tr>
   <h2>human_ensembl_msigdb_c1<h2>
   <img src=lnTE_T_vs_U/human_ensembl_msigdb_c1.all.png style="width:600px">
   <tr>
-<table>
+<table> -->
 <table>
   <tr>
   <h2>human_ensembl_msigdb_c2<h2>
-  <img src=lnTE_T_vs_U/human_ensembl_msigdb_c2.all.png style="width:600px">
+  <img src=lnTE_T_vs_U/human_ensembl_msigdb_c2.R.png style="width:600px">
+  <img src=lnTE_T_vs_U/human_ensembl_msigdb_c2.L.png style="width:600px">
   <tr>
 <table>
 <table>
   <tr>
   <h2>human_ensembl_msigdb_c3<h2>
-  <img src=lnTE_T_vs_U/human_ensembl_msigdb_c3.all.png style="width:600px">
+  <img src=lnTE_T_vs_U/human_ensembl_msigdb_c3.L.png style="width:600px">
   <tr>
 <table>
-<table>
+<!-- <table>
   <tr>
   <h2>human_ensembl_msigdb_c4<h2>
   <img src=lnTE_T_vs_U/human_ensembl_msigdb_c4.all.png style="width:600px">
   <tr>
-<table>
+<table> -->
 <table>
   <tr>
   <h2>human_ensembl_msigdb_c5<h2>
   <img src=lnTE_T_vs_U/human_ensembl_msigdb_c5.all.png style="width:600px">
+  <img src=lnTE_T_vs_U/human_ensembl_msigdb_c5.L.png style="width:600px">
   <tr>
 <table>
-<table>
+<!-- <table>
   <tr>
   <h2>human_ensembl_msigdb_c6<h2>
   <img src=lnTE_T_vs_U/human_ensembl_msigdb_c6.all.png style="width:600px">
   <tr>
-<table>
+<table> -->
 <table>
   <tr>
   <h2>human_ensembl_msigdb_c7<h2>
   <img src=lnTE_T_vs_U/human_ensembl_msigdb_c7.all.png style="width:600px">
+  <img src=lnTE_T_vs_U/human_ensembl_msigdb_c7.L.png style="width:600px">
   <tr>
 <table>
 <table>
   <tr>
   <h2>human_ensembl_msigdb_full<h2>
-  <img src=lnTE_T_vs_U/human_ensembl_msigdb_full.all.png style="width:600px">
+  <img src=lnTE_T_vs_U/human_ensembl_msigdb_full.R.png style="width:600px">
+  <img src=lnTE_T_vs_U/human_ensembl_msigdb_full.L.png style="width:600px">
   <tr>
 <table>
 <table>
@@ -187,7 +191,7 @@ Tools:
   <img src=lnTE_T_vs_U/human_ensembl_msigdb_h.all.png style="width:600px">
   <tr>
 <table>
-<table>
+<!-- <table>
   <tr>
   <h2>human_ensembl_RBPs_all_gene_ids<h2>
   <img src=lnTE_T_vs_U/human_ensembl_RBPs_all_gene_ids.all.png style="width:600px">
@@ -210,14 +214,14 @@ Tools:
   <h2>human_ensembl_RBPs_coding_gene_ids_by_3UTR<h2>
   <img src=lnTE_T_vs_U/human_ensembl_RBPs_coding_gene_ids_by_3UTR.all.png style="width:600px">
   <tr>
-<table>
+<table> -->
 <table>
   <tr>
   <h2>human_ensembl_RBPs_coding_gene_ids_by_5UTR<h2>
   <img src=lnTE_T_vs_U/human_ensembl_RBPs_coding_gene_ids_by_5UTR.all.png style="width:600px">
   <tr>
 <table>
-<table>
+<!-- <table>
   <tr>
   <h2>human_ensembl_RBPs_coding_gene_ids_by_coding_exons<h2>
   <img src=lnTE_T_vs_U/human_ensembl_RBPs_coding_gene_ids_by_coding_exons.all.png style="width:600px">
@@ -235,3 +239,4 @@ Tools:
   <img src=lnTE_T_vs_U/human_ensembl_RBPs_DeepBind.all.png style="width:600px">
   <tr>
 <table>
+ -->
