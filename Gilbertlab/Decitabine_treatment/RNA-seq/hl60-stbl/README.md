@@ -3,12 +3,8 @@ Tools:
 - https://doi.org/doi:10.18129/B9.bioc.limma
 - https://github.com/goodarzilab/PAGE
 
-## PCA
-<img src=plots/plots/PCA_filtered.png style="width:600px">
-## Volcano plot
-<img src=plots/plots/Volcano_plot.png style="width:600px">
 ## Heatmap clustering
-<img src=plots/plots/Heatmap_clustering.pdf.png style="width:600px">
+<img src=plots/Heatmap_clustering.png style="width:600px">
 <h1>Enrichment analysis<h1>
 <table>
   <tr>
