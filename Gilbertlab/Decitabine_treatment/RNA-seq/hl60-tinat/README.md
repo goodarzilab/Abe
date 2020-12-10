@@ -18,8 +18,6 @@ In order to test for any differences over multiple time points, once can use a d
 (see [DESeq2 Time-series-experiments](http://bioconductor.org/packages/devel/bioc/vignettes/DESeq2/inst/doc/DESeq2.html#time-series-experiments) for more details)
 <table>
   <tr>
-    <td><img src=PCA_filtered.png width='500'>
-    PCA
     <td><img src=Volcano_plot.png width='500'>
     Volcano plot
   <tr>
