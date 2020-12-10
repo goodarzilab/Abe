@@ -88,8 +88,8 @@ In order to test for any differences over multiple time points, once can use a d
   <tr>
     <td><img src=6h_delta_exp/human_ensembl_msigdb_c3.R.png width='500'>
     6h_delta_exp
-    <td><img src=72h_delta_exp/human_ensembl_msigdb_c3.R.png width='500'>
-    72h_delta_exp
+<!--     <td><img src=72h_delta_exp/human_ensembl_msigdb_c3.R.png width='500'>
+    72h_delta_exp -->
     <td><img src=120h_delta_exp/human_ensembl_msigdb_c3.R.png width='500'>
     120h_delta_exp
   <tr>
@@ -110,8 +110,8 @@ In order to test for any differences over multiple time points, once can use a d
   <tr>
     <td><img src=6h_delta_exp/human_ensembl_msigdb_c4.R.png width='500'>
     6h_delta_exp
-    <td><img src=72h_delta_exp/human_ensembl_msigdb_c4.R.png width='500'>
-    72h_delta_exp
+<!--     <td><img src=72h_delta_exp/human_ensembl_msigdb_c4.R.png width='500'>
+    72h_delta_exp -->
     <td><img src=120h_delta_exp/human_ensembl_msigdb_c4.R.png width='500'>
     120h_delta_exp
   <tr>
