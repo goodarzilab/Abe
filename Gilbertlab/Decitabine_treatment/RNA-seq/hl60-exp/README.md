@@ -27,7 +27,6 @@ In order to test for any differences over multiple time points, once can use a d
 <table>
 <table>
   <tr>
-  <h2>human_ensembl<h2>
     <td><img src=6h_delta_exp/human_ensembl.R.png width='500'>
     6h_delta_exp
     <td><img src=72h_delta_exp/human_ensembl.R.png width='500'>
@@ -54,7 +53,7 @@ In order to test for any differences over multiple time points, once can use a d
 <table> -->
 <table>
   <tr>
-  <h2>human_ensembl<h2>
+  <h2>human_ensembl_msigdb_c2<h2>
     <td><img src=6h_delta_exp/human_ensembl_msigdb_c2.L.png width='500'>
     6h_delta_exp
     <td><img src=72h_delta_exp/human_ensembl_msigdb_c2.L.png width='500'>
@@ -65,7 +64,6 @@ In order to test for any differences over multiple time points, once can use a d
 <table>
 <table>
   <tr>
-  <h2>human_ensembl<h2>
     <td><img src=6h_delta_exp/human_ensembl_msigdb_c2.R.png width='500'>
     6h_delta_exp
     <td><img src=72h_delta_exp/human_ensembl_msigdb_c2.R.png width='500'>
@@ -77,7 +75,7 @@ In order to test for any differences over multiple time points, once can use a d
 
 <table>
   <tr>
-  <h2>human_ensembl<h2>
+  <h2>human_ensembl_msigdb_c3<h2>
     <td><img src=6h_delta_exp/human_ensembl_msigdb_c3.L.png width='500'>
     6h_delta_exp
     <td><img src=72h_delta_exp/human_ensembl_msigdb_c3.L.png width='500'>
@@ -88,7 +86,6 @@ In order to test for any differences over multiple time points, once can use a d
 <table>
 <table>
   <tr>
-  <h2>human_ensembl<h2>
     <td><img src=6h_delta_exp/human_ensembl_msigdb_c3.R.png width='500'>
     6h_delta_exp
     <td><img src=72h_delta_exp/human_ensembl_msigdb_c3.R.png width='500'>
@@ -100,7 +97,7 @@ In order to test for any differences over multiple time points, once can use a d
 
 <table>
   <tr>
-  <h2>human_ensembl<h2>
+  <h2>human_ensembl_msigdb_c4<h2>
     <td><img src=6h_delta_exp/human_ensembl_msigdb_c4.L.png width='500'>
     6h_delta_exp
     <td><img src=72h_delta_exp/human_ensembl_msigdb_c4.L.png width='500'>
@@ -111,7 +108,6 @@ In order to test for any differences over multiple time points, once can use a d
 <table>
 <table>
   <tr>
-  <h2>human_ensembl<h2>
     <td><img src=6h_delta_exp/human_ensembl_msigdb_c4.R.png width='500'>
     6h_delta_exp
     <td><img src=72h_delta_exp/human_ensembl_msigdb_c4.R.png width='500'>
@@ -123,7 +119,7 @@ In order to test for any differences over multiple time points, once can use a d
 
 <table>
   <tr>
-  <h2>human_ensembl<h2>
+  <h2>human_ensembl_msigdb_c5<h2>
     <td><img src=6h_delta_exp/human_ensembl_msigdb_c5.L.png width='500'>
     6h_delta_exp
     <td><img src=72h_delta_exp/human_ensembl_msigdb_c5.L.png width='500'>
@@ -134,7 +130,6 @@ In order to test for any differences over multiple time points, once can use a d
 <table>
 <table>
   <tr>
-  <h2>human_ensembl<h2>
     <td><img src=6h_delta_exp/human_ensembl_msigdb_c5.R.png width='500'>
     6h_delta_exp
     <td><img src=72h_delta_exp/human_ensembl_msigdb_c5.R.png width='500'>
@@ -146,7 +141,7 @@ In order to test for any differences over multiple time points, once can use a d
 
 <table>
   <tr>
-  <h2>human_ensembl<h2>
+  <h2>human_ensembl_msigdb_c6<h2>
     <td><img src=6h_delta_exp/human_ensembl_msigdb_c6.L.png width='500'>
     6h_delta_exp
     <td><img src=72h_delta_exp/human_ensembl_msigdb_c6.L.png width='500'>
@@ -157,7 +152,6 @@ In order to test for any differences over multiple time points, once can use a d
 <table>
 <table>
   <tr>
-  <h2>human_ensembl<h2>
     <td><img src=6h_delta_exp/human_ensembl_msigdb_c6.R.png width='500'>
     6h_delta_exp
     <td><img src=72h_delta_exp/human_ensembl_msigdb_c6.R.png width='500'>
@@ -169,7 +163,7 @@ In order to test for any differences over multiple time points, once can use a d
 
 <table>
   <tr>
-  <h2>human_ensembl<h2>
+  <h2>human_ensembl_msigdb_c7<h2>
     <td><img src=6h_delta_exp/human_ensembl_msigdb_c7.L.png width='500'>
     6h_delta_exp
     <td><img src=72h_delta_exp/human_ensembl_msigdb_c7.L.png width='500'>
@@ -180,7 +174,6 @@ In order to test for any differences over multiple time points, once can use a d
 <table>
 <table>
   <tr>
-  <h2>human_ensembl<h2>
     <td><img src=6h_delta_exp/human_ensembl_msigdb_c7.R.png width='500'>
     6h_delta_exp
     <td><img src=72h_delta_exp/human_ensembl_msigdb_c7.R.png width='500'>
@@ -192,7 +185,7 @@ In order to test for any differences over multiple time points, once can use a d
 
 <table>
   <tr>
-  <h2>human_ensembl<h2>
+  <h2>human_ensembl_msigdb_full<h2>
     <td><img src=6h_delta_exp/human_ensembl_msigdb_full.L.png width='500'>
     6h_delta_exp
     <td><img src=72h_delta_exp/human_ensembl_msigdb_full.L.png width='500'>
@@ -203,7 +196,6 @@ In order to test for any differences over multiple time points, once can use a d
 <table>
 <table>
   <tr>
-  <h2>human_ensembl<h2>
     <td><img src=6h_delta_exp/human_ensembl_msigdb_full.R.png width='500'>
     6h_delta_exp
     <td><img src=72h_delta_exp/human_ensembl_msigdb_full.R.png width='500'>
@@ -215,7 +207,7 @@ In order to test for any differences over multiple time points, once can use a d
 
 <table>
   <tr>
-  <h2>human_ensembl<h2>
+  <h2>human_ensembl_msigdb_h<h2>
     <td><img src=6h_delta_exp/human_ensembl_msigdb_h.L.png width='500'>
     6h_delta_exp
     <td><img src=72h_delta_exp/human_ensembl_msigdb_h.L.png width='500'>
@@ -226,7 +218,6 @@ In order to test for any differences over multiple time points, once can use a d
 <table>
 <table>
   <tr>
-  <h2>human_ensembl<h2>
     <td><img src=6h_delta_exp/human_ensembl_msigdb_h.R.png width='500'>
     6h_delta_exp
     <td><img src=72h_delta_exp/human_ensembl_msigdb_h.R.png width='500'>
