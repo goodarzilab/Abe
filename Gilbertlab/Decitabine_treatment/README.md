@@ -11,7 +11,7 @@ https://stackoverflow.com/questions/47344571/how-to-draw-checkbox-or-tick-mark-i
 As a quality control, we confirm mRNA Methylation sites enriched in 3′ UTRs and near stop codons same as this Cell paper 
 https://doi.org/10.1016/j.cell.2012.05.003
 
-<img src="meRIP-seq/plots/Guitar_mrna_test.png" title="DRACH and RGAC" width='800'>
+<img src="meRIP-seq/plots/Guitar_mrna_test.png" title="DRACH and RGAC" width='500'>
 
 ### Motif analysis 
 
