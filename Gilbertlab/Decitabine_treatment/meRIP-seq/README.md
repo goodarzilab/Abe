@@ -1,20 +1,30 @@
-# Metagene plots
-**metagene plots** 
+> We have already established that using annotated HeLa m6A sites, we can observe changes in genes with m6A sites (HL-60) cells. In order to confirm this m6A sites, we performed MeRIP-seq in treated and untreated cells, and did observe a general increase in m6A levels upon treatments for a large number of annotated sites. Here, our goal is to indpendently analyze the MeRIP data without relying on HeLa annotations and use it to define a **treatment-induced hyper-methylation sites**. We will then assess the location and behaviour of these targets across the other datasets generated in this study.
+
+# meRIP-seq data 
+
+### Meta-gene plot
+As a quality control, we confirm mRNA Methylation sites enriched in 3′ UTRs and near stop codons same as this Cell paper 
+https://doi.org/10.1016/j.cell.2012.05.003
 
 <table>
   <tr>
-    <td><img src=plots/Guitar_mrna_test.png title=mRNA style="width:600px">
+    <td><img src=plots/Guitar_mrna_test.png title=mRNA width='500px'>
   <tr>
 <table>
 <table>
   <tr>
-    <td><img src=plots/Guitar_ncrna_test.png style="width:300px">
-    <td><img src=plots/Guitar_tx_test.png style="width:300px">
+    <td><img src=plots/Guitar_ncrna_test.png width='250px'>
+    <td><img src=plots/Guitar_tx_test.png width='250px'>
   <tr>
 <table>
 
-# FIRE 
+### Motif analysis 
 https://github.com/goodarzilab/FIRE
+
+<img src="meRIP-seq/fire/motifs_of_interest_FIRE_summary.png" title="DRACH and RGAC" width='800'>
+
+__Results from FIRE__ shown above indicate that the known m6A site **DRACH** and **RGAC** (or `[AG]GAC` and `[AGT][AG]AC[ACT]` in regular expression form) is significantly enriched among the **~4700** methylations sites.
+
 
 ### DRACH & RGAC motifs
 - [AG]GAC
@@ -26,21 +36,21 @@ https://github.com/goodarzilab/FIRE
 https://github.com/goodarzilab/PAGE
 
 ### msigdb_hallmarks
-<img src="d_mtyl_T_vs_U/human_ensembl_msigdb_h.all.png" title="msigdb_c1" style="width:600px">
+<img src="hl60_delta_mtyl/human_ensembl_msigdb_h.all.png" title="msigdb_c1" style="width:600px">
 
 <!-- ### msigdb_c1
-<img src="d_mtyl_T_vs_U/human_ensembl_msigdb_c1.all.png" title="msigdb_c1" style="width:600px">
+<img src="hl60_delta_mtyl/human_ensembl_msigdb_c1.all.png" title="msigdb_c1" style="width:600px">
  -->
 <!-- ### msigdb_c2 -->
-<!-- <img src="d_mtyl_T_vs_U/human_ensembl_msigdb_c2.all.png" title="msigdb_c2" style="width:600px"> -->
+<!-- <img src="hl60_delta_mtyl/human_ensembl_msigdb_c2.all.png" title="msigdb_c2" style="width:600px"> -->
 
 ### msigdb_c3
-<!-- <img src="d_mtyl_T_vs_U/human_ensembl_msigdb_c3.all.png" title="msigdb_c3" style="width:600px"> -->
-<img src="d_mtyl_T_vs_U/human_ensembl_msigdb_c3.R.png" title="msigdb_c3" style="width:600px">
+<!-- <img src="hl60_delta_mtyl/human_ensembl_msigdb_c3.all.png" title="msigdb_c3" style="width:600px"> -->
+<img src="hl60_delta_mtyl/human_ensembl_msigdb_c3.R.png" title="msigdb_c3" style="width:600px">
 
 
 ```python
-cat d_mtyl_T_vs_U/human_ensembl_msigdb_c3/pvmatrix.txt.killed 
+cat hl60_delta_mtyl/human_ensembl_msigdb_c3/pvmatrix.txt.killed 
 ```
 
     MIR4666B, MIR4666B
@@ -50,16 +60,16 @@ cat d_mtyl_T_vs_U/human_ensembl_msigdb_c3/pvmatrix.txt.killed
     	HIVEP1_TARGET_GENES, HIVEP1_TARGET_GENES
 
 <!-- ### msigdb_c4
-<img src="d_mtyl_T_vs_U/human_ensembl_msigdb_c4.all.png" title="msigdb_c4" style="width:600px"> -->
+<img src="hl60_delta_mtyl/human_ensembl_msigdb_c4.all.png" title="msigdb_c4" style="width:600px"> -->
 
 ### msigdb_c5
-<!-- <img src="d_mtyl_T_vs_U/human_ensembl_msigdb_c5.all.png" title="msigdb_c5" style="width:600px"> -->
-<img src="d_mtyl_T_vs_U/human_ensembl_msigdb_c5.R.png" title="msigdb_c5" style="width:600px">
-<img src="d_mtyl_T_vs_U/human_ensembl_msigdb_c5.L.png" title="msigdb_c5" style="width:600px">
+<!-- <img src="hl60_delta_mtyl/human_ensembl_msigdb_c5.all.png" title="msigdb_c5" style="width:600px"> -->
+<img src="hl60_delta_mtyl/human_ensembl_msigdb_c5.R.png" title="msigdb_c5" style="width:600px">
+<img src="hl60_delta_mtyl/human_ensembl_msigdb_c5.L.png" title="msigdb_c5" style="width:600px">
 
 
 ```python
-cat d_mtyl_T_vs_U/human_ensembl_msigdb_c5/pvmatrix.txt.killed 
+cat hl60_delta_mtyl/human_ensembl_msigdb_c5/pvmatrix.txt.killed 
 ```
 
     GO_PROTEIN_DESTABILIZATION, GO_PROTEIN_DESTABILIZATION
@@ -90,14 +100,14 @@ cat d_mtyl_T_vs_U/human_ensembl_msigdb_c5/pvmatrix.txt.killed
 
 
 <!-- ### msigdb_c6
-<img src="d_mtyl_T_vs_U/human_ensembl_msigdb_c6.all.png" title="msigdb_c6" style="width:600px"> -->
+<img src="hl60_delta_mtyl/human_ensembl_msigdb_c6.all.png" title="msigdb_c6" style="width:600px"> -->
 
 ### msigdb_c7
-<img src="d_mtyl_T_vs_U/human_ensembl_msigdb_c7.R.png" title="msigdb_c7" style="width:600px">
+<img src="hl60_delta_mtyl/human_ensembl_msigdb_c7.R.png" title="msigdb_c7" style="width:600px">
 
 
 ```python
-cat d_mtyl_T_vs_U/human_ensembl_msigdb_c7/pvmatrix.txt.killed 
+cat hl60_delta_mtyl/human_ensembl_msigdb_c7/pvmatrix.txt.killed 
 ```
 
     GSE12507_PDC_CELL_LINE_VS_IMMATUE_T_CELL_LINE_DN, GSE12507_PDC_CELL_LINE_VS_IMMATUE_T_CELL_LINE_DN
@@ -107,17 +117,17 @@ cat d_mtyl_T_vs_U/human_ensembl_msigdb_c7/pvmatrix.txt.killed
     	GSE36527_CD62L_HIGH_CD69_NEG_VS_CD62L_LOW_CD69_POS_TREG_KLRG1_NEG_DN, GSE36527_CD62L_HIGH_CD69_NEG_VS_CD62L_LOW_CD69_POS_TREG_KLRG1_NEG_DN
 
 ### msigdb_full
-<img src="d_mtyl_T_vs_U/human_ensembl_msigdb_full.R.png" title="msigdb_full" style="width:600px">
+<img src="hl60_delta_mtyl/human_ensembl_msigdb_full.R.png" title="msigdb_full" style="width:600px">
 
 <!-- ### human_ensembl
-<img src="d_mtyl_T_vs_U/human_ensembl.all.png" title="ensembl" style="width:600px"> -->
+<img src="hl60_delta_mtyl/human_ensembl.all.png" title="ensembl" style="width:600px"> -->
 
 <!-- ### RBPs_coding_gene_ids_by_5UTR
-<img src="d_mtyl_T_vs_U/human_ensembl_RBPs_coding_gene_ids_by_5UTR.all.png" title="RBPs_coding_gene_ids_by_5UTR" style="width:600px"> -->
+<img src="hl60_delta_mtyl/human_ensembl_RBPs_coding_gene_ids_by_5UTR.all.png" title="RBPs_coding_gene_ids_by_5UTR" style="width:600px"> -->
 
 <!-- ### RBPs_coding_gene_ids_by_coding_exons
-<img src="d_mtyl_T_vs_U/human_ensembl_RBPs_coding_gene_ids_by_coding_exons.all.png" title="RBPs_coding_gene_ids_by_coding_exons" style="width:600px"> -->
+<img src="hl60_delta_mtyl/human_ensembl_RBPs_coding_gene_ids_by_coding_exons.all.png" title="RBPs_coding_gene_ids_by_coding_exons" style="width:600px"> -->
 
 <!-- ### RBPs_coding_gene_ids_by_introns
-<img src="d_mtyl_T_vs_U/human_ensembl_RBPs_coding_gene_ids_by_introns.all.png" title="RBPs_coding_gene_ids_by_introns" style="width:600px">
+<img src="hl60_delta_mtyl/human_ensembl_RBPs_coding_gene_ids_by_introns.all.png" title="RBPs_coding_gene_ids_by_introns" style="width:600px">
  -->
