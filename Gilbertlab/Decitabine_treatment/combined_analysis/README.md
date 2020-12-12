@@ -1,5 +1,4 @@
-## Results 
-Test the enrichment of hyper methylated genes (logFC >= 2) and hypo methylated genes (logFC <= -2)
+Test the enrichment of hyper methylated genes (logFC >= 2) and hypo methylated genes (logFC <= -2) in all datasets
 
 ## HL-60 cell line - Time series experiment
 ### Differential RNA Expression
