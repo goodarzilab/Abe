@@ -23,7 +23,7 @@ https://doi.org/10.1016/j.cell.2012.05.003
 
 <img src="meRIP-seq/fire/motifs_of_interest_FIRE_summary.png" title="DRACH and RGAC" width='800'>
 
-__Results from [FIRE](https://github.com/goodarzilab/FIRE)__ shown above indicate that the known m6A site **DRACH** and **RGAC** (or `[AG]GAC` and `[AGT][AG]AC[ACT]` in regular expression form) is significantly enriched among the **~4700** methylations sites.
+__Results from [FIRE](https://github.com/goodarzilab/FIRE)__ shown above indicate that the known m6A site **DRACH** and **RGAC** (or `[AG]GAC` and `[AGT][AG]AC[ACT]` in regular expression form) are significantly enriched among the **~4700** methylations sites.
 
 <img src=fire/motifs_of_interest.png style="width:1100px">
 
