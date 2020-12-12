@@ -31,17 +31,17 @@ __Results from [FIRE](https://github.com/goodarzilab/FIRE)__ shown above indicat
 https://github.com/goodarzilab/PAGE
 
 ### msigdb_hallmarks
-<img src="hl60_delta_mtyl/human_ensembl_msigdb_h.all.png" title="msigdb_c1" width="500">
+<img src="hl60_delta_mtyl/human_ensembl_msigdb_h.all.png" title="msigdb_c1" width='600'>
 
 <!-- ### msigdb_c1
-<img src="hl60_delta_mtyl/human_ensembl_msigdb_c1.all.png" title="msigdb_c1" width="500">
+<img src="hl60_delta_mtyl/human_ensembl_msigdb_c1.all.png" title="msigdb_c1" width='600'>
  -->
 <!-- ### msigdb_c2 -->
-<!-- <img src="hl60_delta_mtyl/human_ensembl_msigdb_c2.all.png" title="msigdb_c2" width="500"> -->
+<!-- <img src="hl60_delta_mtyl/human_ensembl_msigdb_c2.all.png" title="msigdb_c2" width='600'> -->
 
 ### msigdb_c3
-<!-- <img src="hl60_delta_mtyl/human_ensembl_msigdb_c3.all.png" title="msigdb_c3" width="500"> -->
-<img src="hl60_delta_mtyl/human_ensembl_msigdb_c3.R.png" title="msigdb_c3" width="500">
+<!-- <img src="hl60_delta_mtyl/human_ensembl_msigdb_c3.all.png" title="msigdb_c3" width='600'> -->
+<img src="hl60_delta_mtyl/human_ensembl_msigdb_c3.R.png" title="msigdb_c3" width='600'>
 
 
 ```python
@@ -55,12 +55,12 @@ cat hl60_delta_mtyl/human_ensembl_msigdb_c3/pvmatrix.txt.killed
     	HIVEP1_TARGET_GENES, HIVEP1_TARGET_GENES
 
 <!-- ### msigdb_c4
-<img src="hl60_delta_mtyl/human_ensembl_msigdb_c4.all.png" title="msigdb_c4" width="500"> -->
+<img src="hl60_delta_mtyl/human_ensembl_msigdb_c4.all.png" title="msigdb_c4" width='600'> -->
 
 ### msigdb_c5
-<!-- <img src="hl60_delta_mtyl/human_ensembl_msigdb_c5.all.png" title="msigdb_c5" width="500"> -->
-<img src="hl60_delta_mtyl/human_ensembl_msigdb_c5.R.png" title="msigdb_c5" width="500">
-<img src="hl60_delta_mtyl/human_ensembl_msigdb_c5.L.png" title="msigdb_c5" width="500">
+<!-- <img src="hl60_delta_mtyl/human_ensembl_msigdb_c5.all.png" title="msigdb_c5" width='600'> -->
+<img src="hl60_delta_mtyl/human_ensembl_msigdb_c5.R.png" title="msigdb_c5" width='600'>
+<img src="hl60_delta_mtyl/human_ensembl_msigdb_c5.L.png" title="msigdb_c5" width='600'>
 
 
 ```python
@@ -95,10 +95,10 @@ cat hl60_delta_mtyl/human_ensembl_msigdb_c5/pvmatrix.txt.killed
 
 
 <!-- ### msigdb_c6
-<img src="hl60_delta_mtyl/human_ensembl_msigdb_c6.all.png" title="msigdb_c6" width="500"> -->
+<img src="hl60_delta_mtyl/human_ensembl_msigdb_c6.all.png" title="msigdb_c6" width='600'> -->
 
 ### msigdb_c7
-<img src="hl60_delta_mtyl/human_ensembl_msigdb_c7.R.png" title="msigdb_c7" width="500">
+<img src="hl60_delta_mtyl/human_ensembl_msigdb_c7.R.png" title="msigdb_c7" width='600'>
 
 
 ```python
@@ -112,17 +112,17 @@ cat hl60_delta_mtyl/human_ensembl_msigdb_c7/pvmatrix.txt.killed
     	GSE36527_CD62L_HIGH_CD69_NEG_VS_CD62L_LOW_CD69_POS_TREG_KLRG1_NEG_DN, GSE36527_CD62L_HIGH_CD69_NEG_VS_CD62L_LOW_CD69_POS_TREG_KLRG1_NEG_DN
 
 ### msigdb_full
-<img src="hl60_delta_mtyl/human_ensembl_msigdb_full.R.png" title="msigdb_full" width="500">
+<img src="hl60_delta_mtyl/human_ensembl_msigdb_full.R.png" title="msigdb_full" width='600'>
 
 <!-- ### human_ensembl
-<img src="hl60_delta_mtyl/human_ensembl.all.png" title="ensembl" width="500"> -->
+<img src="hl60_delta_mtyl/human_ensembl.all.png" title="ensembl" width='600'> -->
 
 <!-- ### RBPs_coding_gene_ids_by_5UTR
-<img src="hl60_delta_mtyl/human_ensembl_RBPs_coding_gene_ids_by_5UTR.all.png" title="RBPs_coding_gene_ids_by_5UTR" width="500"> -->
+<img src="hl60_delta_mtyl/human_ensembl_RBPs_coding_gene_ids_by_5UTR.all.png" title="RBPs_coding_gene_ids_by_5UTR" width='600'> -->
 
 <!-- ### RBPs_coding_gene_ids_by_coding_exons
-<img src="hl60_delta_mtyl/human_ensembl_RBPs_coding_gene_ids_by_coding_exons.all.png" title="RBPs_coding_gene_ids_by_coding_exons" width="500"> -->
+<img src="hl60_delta_mtyl/human_ensembl_RBPs_coding_gene_ids_by_coding_exons.all.png" title="RBPs_coding_gene_ids_by_coding_exons" width='600'> -->
 
 <!-- ### RBPs_coding_gene_ids_by_introns
-<img src="hl60_delta_mtyl/human_ensembl_RBPs_coding_gene_ids_by_introns.all.png" title="RBPs_coding_gene_ids_by_introns" width="500">
+<img src="hl60_delta_mtyl/human_ensembl_RBPs_coding_gene_ids_by_introns.all.png" title="RBPs_coding_gene_ids_by_introns" width='600'>
  -->
