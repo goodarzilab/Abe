@@ -127,8 +127,8 @@ ___
 # Ribo-seq data
 We have used [Ribolog](https://github.com/goodarzilab/Ribolog) to estimate differential translational efficiency (lnTE). 
 
-#### hyper_mtyl_lnTE_T_vs_U
-<img src="plots/hyper_mtyl_lnTE_T_vs_U.png" title="hyper_mtyl_lnTE_T_vs_U" width='800'>
+#### hyper_mtyl_hl60_delta_te
+<img src="plots/hyper_mtyl_hl60_delta_te.png" title="hyper_mtyl_hl60_delta_te" width='800'>
 
-#### hypo_mtyl_lnTE_T_vs_U
-<img src="plots/hypo_mtyl_lnTE_T_vs_U.png" title="hypo_mtyl_lnTE_T_vs_U" width='800'>
+#### hypo_mtyl_hl60_delta_te
+<img src="plots/hypo_mtyl_hl60_delta_te.png" title="hypo_mtyl_hl60_delta_te" width='800'>
