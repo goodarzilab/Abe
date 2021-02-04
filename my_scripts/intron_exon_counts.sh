@@ -2,23 +2,23 @@
 
 PDIR=$1
 bamDIR=$2
-stblDIR=$3
-JOBS=$4
+countDIR=$3
+logDIR=$4
+JOBS=$5
 
 cd $PDIR
 
 GTF_index='/rumi/shams/genomes/hg38/hg38_ensemble_'
 
-mkdir -p $stblDIR
-mkdir -p ${stblDIR}/counts
-mkdir -p ${stblDIR}/logs
+mkdir -p $countDIR
+mkdir -p $logDIR
 
 for f in ${bamDIR}/*.bam; do
     base=`basename $f`
     sample=${base/.bam/};
     echo -e '----------------------- ' $sample  ' -----------------------'
     echo `date` 
-    featureCounts -M -T $JOBS -t intron -g gene_id -a ${GTF_index}introns.gtf -o ${stblDIR}/counts/${sample}_introns.txt ${f} &> ${stblDIR}/logs/${sample}_introns.log
-    featureCounts -M -T $JOBS -t exon -g gene_id -a ${GTF_index}consExons.gtf -o ${stblDIR}/counts/${sample}_exons.txt ${f} &> ${stblDIR}/logs/${sample}_exons.log
+    featureCounts -M -T $JOBS -t intron -g gene_id -a ${GTF_index}introns.gtf -o ${countDIR}/${sample}_introns.txt ${f} &> ${logDIR}/${sample}_introns.log
+    featureCounts -M -T $JOBS -t exon -g gene_id -a ${GTF_index}consExons.gtf -o ${countDIR}/${sample}_exons.txt ${f} &> ${logDIR}/${sample}_exons.log
     echo `date` Done!
 done
