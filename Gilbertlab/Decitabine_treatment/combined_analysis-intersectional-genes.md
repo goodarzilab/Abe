@@ -1,9 +1,5 @@
 # Main goal: 
-- Hani is looking for the final list of genes which are drug induced significantly methylated, expressed and stabilized. 
-
-    ○ Venn diagram 
-
-    ○ UpsetR 
+- Hani is looking for the final list of genes which are significantly drug induced methylated, expressed and stabilized. 
 
 => table of these genes with all logFCs, pvalues and screening scores. 
 
