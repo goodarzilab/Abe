@@ -15,11 +15,11 @@ from utility import *
 # Intersectional genes 
 Find top genes across all cell lines and high throughput experiments:
 
-- $\Delta$RNA expression 
-- $\Delta$RNA stability 
-- $\Delta$RNA methylation  
-- $\Delta$Phenotype (CRISPR Screen Rho score)
-- $\Delta$Translational efficiency
+- ∆ RNA expression 
+- ∆ RNA stability 
+- ∆ RNA methylation  
+- ∆ Phenotype (CRISPR Screen Rho score)
+- ∆ Translational efficiency
 
 
 ```python
