@@ -1,8 +1,7 @@
 # Main goal: 
-- Hani is looking for the final list of genes which are significantly drug induced methylated, expressed and stabilized. 
+Here, we aim to integrate differential analysis results (treated vs. non-treated) toward making a final list of genes which are significantly  methylated, expressed and stabilized. 
 
 => table of these genes with all logFCs, pvalues and screening scores. 
-
 
 
 ```python
