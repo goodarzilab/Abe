@@ -1,8 +1,7 @@
 # Main goal: 
-- Hani is looking for the final list of genes which are significantly drug induced methylated, expressed and stabilized. 
+Here, we aim to integrate differential analysis results (treated vs. non-treated) toward making a final list of genes which are significantly  methylated, expressed and stabilized. 
 
 => table of these genes with all logFCs, pvalues and screening scores. 
-
 
 
 ```python
@@ -15,11 +14,11 @@ from utility import *
 # Intersectional genes 
 Find top genes across all cell lines and high throughput experiments:
 
-- $\Delta$RNA expression 
-- $\Delta$RNA stability 
-- $\Delta$RNA methylation  
-- $\Delta$Phenotype (CRISPR Screen Rho score)
-- $\Delta$Translational efficiency
+- ∆ RNA expression 
+- ∆ RNA stability 
+- ∆ RNA methylation  
+- ∆ Phenotype (CRISPR Screen Rho score)
+- ∆ Translational efficiency
 
 
 ```python
@@ -133,20 +132,6 @@ make_final_table(hypothesis1)
 
 
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -266,20 +251,6 @@ make_final_table(hypothesis2)
 
 
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -615,20 +586,6 @@ make_final_table(hypothesis3)
 
 
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -724,20 +681,6 @@ make_final_table(hypothesis4)
 
 
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
