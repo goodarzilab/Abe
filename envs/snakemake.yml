@@ -1,0 +1,11 @@
+name: snakemake
+channels:
+  - defaults
+  - anaconda
+  - r
+  - bioconda
+  - conda-forge
+dependencies:
+  - mamba
+  - snakemake-minimal
+prefix: /rumi/shams/abe/anaconda3/envs/snakemake
