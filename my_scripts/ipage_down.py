@@ -1,6 +1,7 @@
 import pandas as pd
 from glob import glob
 
+
 def read_gmt(PATH):
     '''
     Read given gmt file into a Dictionary 
@@ -69,21 +70,28 @@ def read_page_names(PATH):
     return out
 
 
-def read_page_annotations(gs_name,ANNDIR='/flash/bin/iPAGEv1.0/PAGE_DATA/ANNOTATIONS/'):
+def subset_dict(dic, df):
+    return dict((i, dic[i]) for i in df.index.tolist() if i in dic)
+
+
+def read_page_annotations(gs_name,pv_df,ANNDIR='/flash/bin/iPAGEv1.0/PAGE_DATA/ANNOTATIONS/'):
     '''
     Read gene set annotations into python from PAGE_DATA format
     '''
     annotations = {}
-    gmt = glob(f'{ANNDIR}{gs_name}/*.gmt')
-    index = glob(f'{ANNDIR}{gs_name}/*_index.txt')
-    names = glob(f'{ANNDIR}{gs_name}/*_names.txt')
-    if index:
-        annotations['index'] = read_page_index(index[0])
-#     if names:
-#         annotations['names'] = read_page_names(names[0])
-#     if gmt:
-#         annotations['gmt'] = read_gmt(gmt[0])
-
+    gmt_path = glob(f'{ANNDIR}{gs_name}/*.gmt')
+    index_path = glob(f'{ANNDIR}{gs_name}/*_index.txt')
+    names_path = glob(f'{ANNDIR}{gs_name}/*_names.txt')
+    if index_path:
+        index = read_page_index(index_path[0])
+        annotations['index'] = subset_dict(index,pv_df)
+    if names_path:
+        names = read_page_names(names_path[0])
+        annotations['names'] = subset_dict(names,pv_df)
+    if gmt_path:
+        gmt = read_gmt(gmt_path[0])
+        annotations['gmt'] = subset_dict(gmt,pv_df)
+    
     return annotations
 
 
@@ -99,18 +107,18 @@ def make_page_dict(PATH):
     '''
     ### 1 ### 
     # read pvmatrix.txt file 
-    df = pd.read_csv(PATH, sep='\t',index_col=0)
+    pv_df = pd.read_csv(PATH, sep='\t',index_col=0)
     # remove duplicated named (row) names 
-    if all([geneset.split(' ')[0] == geneset.split(' ')[1] for geneset in df.index.tolist()]):
-        df.index = [geneset.split(' ')[0] for geneset in df.index.tolist() ]
+    if all([geneset.split(' ')[0] == geneset.split(' ')[1] for geneset in pv_df.index.tolist()]):
+        pv_df.index = [geneset.split(' ')[0] for geneset in pv_df.index.tolist() ]
         
     ### 2 ### 
     gs_name = PATH.split('/')[-2]
-    ann = read_page_annotations(gs_name)
+    ann = read_page_annotations(gs_name,pv_df)
 
     out = {}
     out['gs_name'] = gs_name
     out['annotations'] = ann
-    out['data'] = df
+    out['data'] = pv_df
     
     return out
