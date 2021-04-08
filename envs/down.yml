@@ -1,0 +1,22 @@
+name: down
+channels:
+  - defaults
+  - anaconda
+  - r
+  - bioconda
+  - conda-forge
+dependencies:
+  - r-patchwork
+  - r-gplots
+  - r-upsetr
+  - python
+  - matplotlib
+  - numpy
+  - pandas
+  - ipykernel
+  - r-tidyverse
+  - xlrd
+  - matplotlib-venn
+  - seaborn
+  - gseapy
+  - numba
