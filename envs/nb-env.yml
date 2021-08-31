@@ -1,0 +1,11 @@
+name: nb-env
+channels:
+  - defaults
+  - anaconda
+  - r
+  - bioconda
+  - conda-forge
+dependencies:
+  - jupyter
+  - nb_conda_kernels
+prefix: /rumi/shams/abe/anaconda3/envs/nb-env
