@@ -1,0 +1,14 @@
+#$ -l mem_free=4000M
+#$ -l h_rt=72:00:00
+#$ -e splice_binary_table.txt_GENESET/splice_binary_table.txt.script.e
+#$ -o splice_binary_table.txt_GENESET/splice_binary_table.txt.script.o
+#$ -cwd
+#$ -V
+export TEISERDIR=/data_gilbert/home/aarab/Workflows/TEISERv1.1
+cd /data_gilbert/home/aarab/People/Nilay@DFCIHarvard/ChIP-seq-data
+date
+echo "Remove duplicates, create splice_binary_table.txt_GENESET/splice_binary_table.txt"
+echo "step 2: seed optimization."
+/data_gilbert/home/aarab/Workflows/TEISERv1.1/Programs/mi_report_gene_list -expfile splice_binary_table.txt_GENESET/splice_binary_table.txt -genefile GFP_DOX_pos.txt -quantized 1 -shuffle 1500000 -matrixfile splice_binary_table.txt_GENESET/splice_binary_table.txt.matrix -summaryfile splice_binary_table.txt_GENESET/splice_binary_table.txt.summary -profile splice_binary_table.txt_GENESET/splice_binary_table.txt.profile -divbins 50 
+echo "step 7: drawing matrix."
+perl /data_gilbert/home/aarab/Workflows/TEISERv1.1/Scripts/teiser_draw_matrix.pl --pvmatrixfile=splice_binary_table.txt_GENESET/splice_binary_table.txt.matrix --summaryfile=splice_binary_table.txt_GENESET/splice_binary_table.txt.summary --expfile=splice_binary_table.txt_GENESET/splice_binary_table.txt --quantized=1 --colmap=/data_gilbert/home/aarab/Workflows/TEISERv1.1/Scripts/HEATMAPS/cmap_1.txt --order=0 --min=-10 --max=10 --cluster=5 --suffix=

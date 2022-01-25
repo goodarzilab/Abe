@@ -1,0 +1,1 @@
+perl run_mi_gene_list.pl --expfile=splice_binary_table.txt --genefile=SOX9_DOX_pos.txt --exptype=discrete --species=human --doremovedups=0 --doremoveextra=0
