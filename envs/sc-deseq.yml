@@ -1,0 +1,23 @@
+name: sc-deseq
+channels:
+  - defaults
+  - anaconda
+  - r
+  - bioconda
+  - conda-forge
+dependencies:
+  - bioconductor-deseq2
+  - bioconductor-singlecellexperiment
+  - scanpy
+  - numpy
+  - ipykernel
+  - pandas
+  - r-tidyverse
+  - bioconductor-zinbwave
+  - bioconductor-scran
+  - r-ggrepel
+  - r-patchwork
+  - python-igraph
+  - louvain
+  - bioconductor-zellkonverter
+prefix: /rumi/shams/abe/anaconda3/envs/sc-deseq

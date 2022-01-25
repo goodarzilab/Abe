@@ -1,0 +1,16 @@
+name: deseq2
+channels:
+  - anaconda
+  - r
+  - conda-forge
+  - bioconda
+dependencies:
+  - bioconductor-deseq2
+  - bioconductor-scran
+  - bioconductor-isoformswitchanalyzer
+  - pandas
+  - ipykernel
+  - numpy
+  - pip
+  - pip:
+    - rpy2
