@@ -1,0 +1,9 @@
+FastQ	Group	DOX	Cond	Replicate
+GFPN1	GFP	no-dox	ctrl	1
+GFPN2	GFP	no-dox	ctrl	2
+GFPP1	GFP	dox	ctrl	1
+GFPP2	GFP	dox	ctrl	2
+SOX9N1	SOX9	no-dox	ctrl	1
+SOX9N2	SOX9	no-dox	ctrl	2
+SOX9P1	SOX9	dox	case	1
+SOX9P2	SOX9	dox	case	2
