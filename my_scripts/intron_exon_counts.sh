@@ -20,5 +20,6 @@ for f in ${bamDIR}/*.bam; do
     echo `date` 
     featureCounts -M -T $JOBS -t intron -g gene_id -a ${GTF_index}introns.gtf -o ${countDIR}/${sample}_introns.txt ${f} &> ${logDIR}/${sample}_introns.log
     featureCounts -M -T $JOBS -t exon -g gene_id -a ${GTF_index}consExons.gtf -o ${countDIR}/${sample}_exons.txt ${f} &> ${logDIR}/${sample}_exons.log
+    # --fracOverlap
     echo `date` Done!
 done
