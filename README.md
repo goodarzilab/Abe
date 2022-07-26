@@ -9,7 +9,7 @@ https://github.com/goodarzilab/immunoselection
 
 https://github.com/goodarzilab/cardio_drug_screen
 
-https://github.com/abearab/targeting-miR-21-RNA-seq
+https://github.com/goodarzilab/targeting-miR-21-RNA-seq
 
 https://github.com/abearab/GI-Predictor
 
