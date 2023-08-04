@@ -15,6 +15,9 @@ https://github.com/goodarzilab/targeting-miR-21-RNA-seq
 
 https://github.com/abearab/GI-Predictor
 
+## Packages
+https://screenpro2.rtfd.io/
+
 ## Pipelines
 https://github.com/abearab/QuantSeq-FWD-with-UMIs
 
