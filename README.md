@@ -8,6 +8,11 @@
 
 ## On going (or failed) projects 
 
+https://github.com/abearab/Marcelo-Alarconlab-2021
+
+https://github.com/abearab/Mariluz-Birsoylab-2022
+
+https://github.com/abearab/m6A-on-HIV-in-T-cells
 
 https://github.com/goodarzilab/immunoselection
 
