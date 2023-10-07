@@ -4,14 +4,14 @@
 
 [**DOI**](https://doi.org/10.1101/2022.12.14.518457) | https://github.com/GilbertLabUCSF/Decitabine-treatment
 
+[**DOI**](https://www.biorxiv.org/content/10.1101/2023.01.13.524005v1) | https://github.com/goodarzilab/targeting-miR-21-RNA-seq
+
 ## On going (or failed) projects 
 
 
 https://github.com/goodarzilab/immunoselection
 
 https://github.com/goodarzilab/cardio_drug_screen
-
-https://github.com/goodarzilab/targeting-miR-21-RNA-seq
 
 https://github.com/abearab/GI-Predictor
 
