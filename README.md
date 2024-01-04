@@ -6,6 +6,22 @@
 
 [**DOI**](https://www.biorxiv.org/content/10.1101/2023.01.13.524005v1) | https://github.com/goodarzilab/targeting-miR-21-RNA-seq
 
+## Packages
+[![website](https://img.shields.io/badge/website-live-brightgreen)](https://arcinstitute.org/tools/screenpro2)
+![image](https://img.shields.io/pypi/v/screenpro2.svg) 
+![Documentation Status](https://readthedocs.org/projects/screenpro2/badge/?version=latest)
+
+https://github.com/ArcInstitute/ScreenPro2
+
+## Pipelines
+https://github.com/abearab/QuantSeq-FWD-with-UMIs
+
+https://github.com/abearab/CRISPRi-dual-sgRNA-screens
+
+https://github.com/abearab/pager
+
+https://github.com/abearab/imRIP
+
 ## On going (or failed) projects 
 
 https://github.com/abearab/Marcelo-Alarconlab-2021
@@ -18,16 +34,4 @@ https://github.com/goodarzilab/immunoselection
 
 https://github.com/goodarzilab/cardio_drug_screen
 
-https://github.com/abearab/GI-Predictor
-
-## Packages
-https://screenpro2.rtfd.io/
-
-## Pipelines
-https://github.com/abearab/QuantSeq-FWD-with-UMIs
-
-https://github.com/abearab/CRISPRi-dual-sgRNA-screens
-
-https://github.com/abearab/pager
-
-https://github.com/abearab/imRIP
+https://github.com/abearab/Cancer-Cell-Encoder
